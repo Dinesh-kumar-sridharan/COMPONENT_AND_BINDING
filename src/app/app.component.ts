@@ -6,5 +6,12 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'Binding';
+   text = 'Bindingproject';
+   title = 'input';
+
+   propertyActive:boolean=false;
+
+    callEvent() {
+  	this.propertyActive = true;
+}
 }
